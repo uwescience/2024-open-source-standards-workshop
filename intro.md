@@ -9,4 +9,4 @@ The workshop will convene attendees from a broad range of research disciplines a
 ```{tableofcontents}
 ```
 
-### Funded through [grant \#2334483]() from the NSF [Pathways to Enable Open-Source Ecosystems (POSE) program](https://new.nsf.gov/funding/opportunities/pathways-enable-open-source-ecosystems-pose).
+#### Funded through [grant \#2334483]() from the NSF [Pathways to Enable Open-Source Ecosystems (POSE) program](https://new.nsf.gov/funding/opportunities/pathways-enable-open-source-ecosystems-pose).
