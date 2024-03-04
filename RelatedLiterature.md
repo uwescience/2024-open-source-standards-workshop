@@ -12,7 +12,7 @@
     - Year: 2020
     - Identifier: 0578675862
     - Link: [https://press.stripe.com/working-in-public](https://press.stripe.com/working-in-public)
-    - Abstract / Summary: In this book Eghbal presents an incisive and timely overview of the socio-technical nuances of Open source development.  Of particular relation to the topic of Open Source Ecosystems, Eghbal dedicates a good deal of discussion (and an entire chapter) to the issue(s) of Open Source communities and organizations.  Through this exploration she reveals many of the unique challenges associated with the coordination and sustenance of a coherent and aligned Open Source endeavor.
+    - Abstract / Summary: In this book Eghbal presents an overview of the socio-technical nuances of Open source development.  Of particular relation to the topic of Open Source Ecosystems, Eghbal dedicates a portion of discussion to the issue(s) of Open Source communities and organizations.  Through this exploration she reveals many of the challenges associated with the coordination and sustenance of a coherent and aligned Open Source endeavor.
 - 2. 
     - Title: The relationship between open source software and standard setting
     - Type: Report
