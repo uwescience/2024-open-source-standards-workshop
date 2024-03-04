@@ -63,5 +63,5 @@
     - Resource Title: **Building a metadata schema – where to start**
     - [International Organization for Standardization (ISO)](https://www.iso.org/home.html)
     - Link: [https://committee.iso.org/files/live/sites/tc46sc11/files/documents/N800R1%20Where%20to%20start-advice%20on%20creating%20a%20metadata%20schema.pdf](https://committee.iso.org/files/live/sites/tc46sc11/files/documents/N800R1%20Where%20to%20start-advice%20on%20creating%20a%20metadata%20schema.pdf)
-    Description / Summary: A guide provided by the International Organization for Standardization (ISO) to assist with the creation of a metadata schema.
+    - Description / Summary: A guide provided by the International Organization for Standardization (ISO) to assist with the creation of a metadata schema.
 ### Organizations 
