@@ -24,7 +24,7 @@
     
     Of particular salience and interest to the current workshop endeavor is the overarching conceptual framework provided by the analysis, which can be understood to subsume the (sub)-domain of Open Source Ecosystems for data and metadata standard development and promulgation. 
 
-  - 3. 
+- 3. 
     - Title: Research Data File Formats and Digital Preservation — Final Report
     - Type: Report
     - Author:  Digital preservation services development group; The Open Science and Research Initiative (ATT) 
@@ -32,7 +32,7 @@
     - Identifier: URN:NBN:fi-fe2017121855906; [10.2760/163594](https://dx.doi.org/10.2760/163594)
     - Link: [https://www.doria.fi/handle/10024/147761](https://www.doria.fi/handle/10024/147761
     - Abstract / Summary: "This report is part of designing the digital preservation ensemble. It focuses on research data file formats, whose understandability, prevalence and software support are important for data reuse. The report is based on international sources and interviews with Finnish researchers. Additionally, the report presents preliminary requirements for accepting research datasets for digital preservation."[[source](https://www.doria.fi/handle/10024/147761)]
-
+    
 
 
 ### Policy & Policy-related Documents
