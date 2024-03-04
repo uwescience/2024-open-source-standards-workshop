@@ -21,8 +21,7 @@
     - Identifier: 978-92-76-11593-9; [10.2760/163594](https://dx.doi.org/10.2760/163594)
     - Link: [https://op.europa.eu/en/publication-detail/-/publication/6521f427-01df-11ea-8c1f-01aa75ed71a1/language-en](https://op.europa.eu/en/publication-detail/-/publication/6521f427-01df-11ea-8c1f-01aa75ed71a1/language-en)
     - Abstract / Summary: In this 2019 European Commission, [Joint Research Centre (JRC)](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/joint-research-centre_en) report, the interactions and relationships between the socio-technical processes of Open Source Software (OSS) development communities and Standards Development Organizations (SDOs) is analyzed.  Of particular interest to the report are issues of incentive structures/systems, Intellectual Property Rights/regimes (IPR), and collaboration (within SDOs/OSS communities and between SDOs and OSS communities).  The report includes a consideration of 20 case studies and the provision of recommendations to a broad range of stakeholders, in fulfillment of [the inciting charge](https://ec.europa.eu/docsroom/documents/26583) issued by the European Commission on this subject.
-    
-    Of particular salience and interest to the current workshop endeavor is the overarching conceptual framework provided by the analysis, which can be understood to subsume the (sub)-domain of Open Source Ecosystems for data and metadata standard development and promulgation. 
+      \nOf particular salience and interest to the current workshop endeavor is the overarching conceptual framework provided by the analysis, which can be understood to subsume the (sub)-domain of Open Source Ecosystems for data and metadata standard development and promulgation. 
 
 - 3. 
     - Title: **Research Data File Formats and Digital Preservation — Final Report**
