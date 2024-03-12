@@ -41,8 +41,6 @@
     - Link: [https://www.doria.fi/handle/10024/147761](https://www.doria.fi/handle/10024/147761)
     - Abstract / Summary: "This report is part of designing the digital preservation ensemble. It focuses on research data file formats, whose understandability, prevalence and software support are important for data reuse. The report is based on international sources and interviews with Finnish researchers. Additionally, the report presents preliminary requirements for accepting research datasets for digital preservation."[[source](https://www.doria.fi/handle/10024/147761)]
 
-
-
 ### Policy & Policy-related Documents
 -
     - Title: **Request for Information (RFI): Proposed Use of Common Data Elements (CDEs) for NIH-Funded Clinical Research and Trials**
@@ -75,3 +73,7 @@
 
 ### Organizations
 
+### Other
+- Hillel Wayne. **The Hunt for The Missing Data Type**. Mar 02, 2024.  URL:  [https://www.hillelwayne.com/post/graph-types/](https://www.hillelwayne.com/post/graph-types/)
+
+- Tyler Hou. **The "missing" graph datatype already exists. It was invented in the '70s**. 05 Mar 2024. URL: [https://tylerhou.com/posts/datalog-go-brrr/](https://tylerhou.com/posts/datalog-go-brrr/)
