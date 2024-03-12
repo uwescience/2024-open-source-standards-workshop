@@ -72,7 +72,11 @@
     - _Description / Summary_: A guide provided by the International Organization for Standardization (ISO) to assist with the creation of a metadata schema.
 
 ### Organizations
-
+-
+    - _Organization Name_: Research Data Alliance (RDA)
+    - _Link_: [https://www.rd-alliance.org/](https://www.rd-alliance.org/)
+    - _Relevant Components/Aspects_: [Data Granularity WG](https://www.rd-alliance.org/groups/data-granularity-wg), [Data Repository Attributes WG](https://www.rd-alliance.org/groups/data-repository-attributes-wg),  [FAIRsharing Registry: Connecting data policies, standards and databases RDA WG](https://www.rd-alliance.org/group/fairsharing-registry-connecting-data-policies-standards-databases.html), [Metadata Standards Catalog WG](https://www.rd-alliance.org/groups/metadata-standards-catalog-working-group.html),  [Research Metadata Schemas WG](https://www.rd-alliance.org/groups/research-metadata-schemas-wg), [FAIR Instrument Data IG](https://www.rd-alliance.org/groups/fair-instrument-data-ig), [Metadata IG](https://www.rd-alliance.org/groups/metadata-ig.html), [Social Dynamics of Data Interoperability IG](https://www.rd-alliance.org/groups/social-dynamics-data-interoperability-ig), [Data Type Registries WG & #2](https://www.rd-alliance.org/groups/data-type-registries-wg.html)
+    
 ### Other
 - Hillel Wayne. **The Hunt for The Missing Data Type**. Mar 02, 2024.  URL:  [https://www.hillelwayne.com/post/graph-types/](https://www.hillelwayne.com/post/graph-types/)
 
