@@ -7,7 +7,7 @@
 | 10:00 - 10:30 | Lightning presentations          | [Breakout sessions](breakouts2)      |
 | 10:30 - 11:00 | Lightning presentations          | [Breakout sessions](breakouts2)      |
 | 11:00 - 11:30 | Lightning presentations          | Report out from breakouts            |
-| 11:30 - 12:00 | Working lunch + [breakouts](breakouts1)|           |
+| 11:30 - 12:00 | Working lunch + [breakouts](breakouts1)| Report out from breakouts      |
 | 12:00 - 12:30 | Working lunch + [breakouts](breakouts1)| Working Lunch (summary and synthesis)|
 | 12:30 - 1:00  | Working lunch + [breakouts](breakouts1)| Working Lunch (summary and synthesis)|
 | 1:00 - 1:30   | Report out from breakouts        | Adjourn                              |
