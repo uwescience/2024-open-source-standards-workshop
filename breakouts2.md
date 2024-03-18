@@ -1,6 +1,5 @@
 # Breakout session 2
 
-
 - Interactions with open-source software:
 	- How should open-source maintenance be sustained?
 	- What are some strategies for taming the complexity of open standards?
