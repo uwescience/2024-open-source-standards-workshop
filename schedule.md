@@ -4,7 +4,7 @@
 |---------------|----------------------------------|--------------------------------------|
 | 9-9:30        | Welcome (organizing committee)   | Plenary (Christine Kirkpatrick)      |
 | 9:30 - 10:00  | Lightning presentations          |                                      |
-| 10:00 - 10:30 | Lightning presentations          | [Breakout sessions](breakout2)       |
+| 10:00 - 10:30 | Lightning presentations          | [Breakout sessions](breakouts2)       |
 | 10:30 - 11:00 | Lightning presentations          |                                      |
 | 11:00 - 11:30 | Lightning presentations          | Report out from breakouts            |
 | 11:30 - 12:00 | Working lunch + [breakouts](breakouts1)|           |
