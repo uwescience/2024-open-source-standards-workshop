@@ -17,7 +17,7 @@
 | 3:00 - 3:30   | Plenary (Yaroslav Halchenko)     |                                      |
 | 3:30 - 4:00   | [Debates](debates)               |                                      |
 | 4:00 - 4:30   | [Debates](debates)               |                                      |
-| 4:30 - 5:00   | Report out from breakouts        |                                      |
+| 4:30 - 5:00   | Report out from debates          |                                      |
 | 5:00 - 5:30   | Discussion and synthesis         |                                      |
 | 5:30 - 6:00   | Dinner                           |                                      |
 | 5:30 - 6:00   | Dinner                           |                                      |
