@@ -20,4 +20,4 @@
 | 4:30 - 5:00   | Report out from debates          |                                      |
 | 5:00 - 5:30   | Discussion and synthesis         |                                      |
 | 5:30 - 6:00   | Dinner                           |                                      |
-| 5:30 - 6:00   | Dinner                           |                                      |
+| 6:00 - 6:30   | Dinner                           |                                      |
