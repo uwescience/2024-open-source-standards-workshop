@@ -11,4 +11,4 @@
     - Working lunch will be provided as part of the workshop in each day.
 
 - Dinner on your own (but please plan to go with some workshop friends!)
-    - There are several options within walking distance of NSF/hotel.
+    - There are [several options](https://www.google.com/maps/search/Restaurants/@38.8019849,-77.0650526,16.02z/data=!4m7!2m6!3m5!2sNational+Science+Foundation!3s0x89b7b4245b7c2a15:0x4b85ed20a7b436d0!4m2!1d-77.0705184!2d38.8014418?entry=ttu) within walking distance of NSF/hotel.
