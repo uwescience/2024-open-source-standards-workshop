@@ -80,4 +80,4 @@
 ### Other
 - Hillel Wayne. **The Hunt for The Missing Data Type**. Mar 02, 2024.  URL:  [https://www.hillelwayne.com/post/graph-types/](https://www.hillelwayne.com/post/graph-types/)
 
-- Tyler Hou. **The "missing" graph datatype already exists. It was invented in the '70s**. 05 Mar 2024. URL: [https://tylerhou.com/posts/datalog-go-brrr/](https://tylerhou.com/posts/datalog-go-brrr/)
+- Tyler Hou. **The "missing" graph datatype already exists. It was invented in the 70's**. 05 Mar 2024. URL: [https://tylerhou.com/posts/datalog-go-brrr/](https://tylerhou.com/posts/datalog-go-brrr/)
