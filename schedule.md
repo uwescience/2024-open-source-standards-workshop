@@ -2,7 +2,7 @@
 
 | Time          | Day 1 (April 8th)                | Day 2 (April 9th)                    |
 |---------------|----------------------------------|--------------------------------------|
-| 9-9:30        | Welcome (organizing committee)   | Plenary (Christine Kirkpatrick)      |
+| 9-9:30        | Welcome and introduction (organizing committee + Katie Antypas, NSF Office of Advanced Cyberinfrastructure Office Director and NAIRR Lead)    | Plenary (Christine Kirkpatrick)      |
 | 9:30 - 10:00  | Lightning presentations          | Plenary (Christine Kirkpatrick)      |
 | 10:00 - 10:30 | Lightning presentations          | [Breakout sessions](breakouts2)      |
 | 10:30 - 11:00 | Lightning presentations          | [Breakout sessions](breakouts2)      |
