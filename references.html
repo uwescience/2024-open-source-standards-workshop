@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Related literature &#8212; Open Source Model for Data/Metadata Standards</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'references';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Organizer team" href="organizers.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Open Source Model for Data/Metadata Standards - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Open Source Model for Data/Metadata Standards - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Towards an open source model for data and metadata standards
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="schedule.html">Workshop schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logistics.html">Workshop logisitcs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="organizers.html">Organizer team</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Related literature</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/uw-psych/2024-informatics-in-psychology" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/uw-psych/2024-informatics-in-psychology/issues/new?title=Issue%20on%20page%20%2Freferences.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/references.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Related literature</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#content-relating-to-data-and-metadata-standards">Content relating to Data and Metadata standards</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-reviewed-articles">Peer-Reviewed Articles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-peer-reviewed-documents-articles">Non-Peer-Reviewed Documents &amp; Articles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#policy-policy-related-documents">Policy &amp; Policy-related Documents</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#media">Media</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizations">Organizations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other">Other</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="related-literature">
+<h1>Related literature<a class="headerlink" href="#related-literature" title="Link to this heading">#</a></h1>
+<section id="content-relating-to-data-and-metadata-standards">
+<h2>Content relating to Data and Metadata standards<a class="headerlink" href="#content-relating-to-data-and-metadata-standards" title="Link to this heading">#</a></h2>
+<section id="peer-reviewed-articles">
+<h3>Peer-Reviewed Articles<a class="headerlink" href="#peer-reviewed-articles" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Russell A. Poldrack, Christopher J. Markiewicz, Stefan Appelhoff, Yoni K. Ashar, Tibor Auer, Sylvain Baillet, Shashank Bansal, Leandro Beltrachini, Christian G. Benar, Giacomo Bertazzoli, Suyash Bhogawar, Ross W. Blair, Marta Bortoletto, Mathieu Boudreau, Teon L. Brooks, Vince D. Calhoun, Filippo Maria Castelli, Patricia Clement, Alexander L. Cohen, Julien Cohen-Adad, Sasha D’Ambrosio, Gilles de Hollander, María de la Iglesia-Vayá, Alejandro de la Vega, Arnaud Delorme, Orrin Devinsky, Dejan Draschkow, Eugene Paul Duff, Elizabeth DuPre, Eric Earl, Oscar Esteban, Franklin W. Feingold, Guillaume Flandin, Anthony Galassi, Giuseppe Gallitto, Melanie Ganz, Rémi Gau, James Gholam, Satrajit S. Ghosh, Alessio Giacomel, Ashley G. Gillman, Padraig Gleeson, Alexandre Gramfort, Samuel Guay, Giacomo Guidali, Yaroslav O. Halchenko, Daniel A. Handwerker, Nell Hardcastle, Peer Herholz, Dora Hermes, Christopher J. Honey, Robert B. Innis, Horea-Ioan Ioanas, Andrew Jahn, Agah Karakuzu, David B. Keator, Gregory Kiar, Balint Kincses, Angela R. Laird, Jonathan C. Lau, Alberto Lazari, Jon Haitz Legarreta, Adam Li, Xiangrui Li, Bradley C. Love, Hanzhang Lu, Eleonora Marcantoni, Camille Maumet, Giacomo Mazzamuto, Steven L. Meisler, Mark Mikkelsen, Henk Mutsaerts, Thomas E. Nichols, Aki Nikolaidis, Gustav Nilsonne, Guiomar Niso, Martin Norgaard, Thomas W. Okell, Robert Oostenveld, Eduard Ort, Patrick J. Park, Mateusz Pawlik, Cyril R. Pernet, Franco Pestilli, Jan Petr, Christophe Phillips, Jean-Baptiste Poline, Luca Pollonini, Pradeep Reddy Raamana, Petra Ritter, Gaia Rizzo, Kay A. Robbins, Alexander P. Rockhill, Christine Rogers, Ariel Rokem, Chris Rorden, Alexandre Routier, Jose Manuel Saborit-Torres, Taylor Salo, Michael Schirner, Robert E. Smith, Tamas Spisak, Julia Sprenger, Nicole C. Swann, Martin Szinte, Sylvain Takerkart, Bertrand Thirion, Adam G. Thomas, Sajjad Torabian, Gael Varoquaux, Bradley Voytek, Julius Welzel, Martin Wilson, Tal Yarkoni, Krzysztof J. Gorgolewski. <strong>The past, present, and future of the brain imaging data structure (BIDS)</strong>. Imaging Neuroscience (2024). URL: <a class="reference external" href="https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00103/119672">https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00103/119672</a>. DOI: <a class="reference external" href="https://doi.org/10.1162/imag_a_00103">https://doi.org/10.1162/imag_a_00103</a></p></li>
+<li><p>Christopher J Markiewicz, Krzysztof J Gorgolewski, Franklin Feingold, Ross Blair, Yaroslav O Halchenko, Eric Miller, Nell Hardcastle, Joe Wexler, Oscar Esteban, Mathias Goncavles, Anita Jwa, and Russell Poldrack. <strong>The OpenNeuro resource for sharing of neuroscience data</strong>. Elife, October 2021. URL: <a class="reference external" href="https://elifesciences.org/articles/71774">https://elifesciences.org/articles/71774</a>. DOI: <a class="reference external" href="https://doi.org/10.7554/eLife.71774">https://doi.org/10.7554/eLife.71774</a></p></li>
+<li><p>Russell A Poldrack, Franklin Feingold, Michael J Frank, Padraig Gleeson, Gilles de Hollander, Quentin J. M. Huys, Bradley C. Love, Christopher J. Markiewicz, Rosalyn Moran, Petra Ritter, Timothy T. Rogers, Brandon M. Turner, Tal Yarkoni, Ming Zhan, and Jonathan D. Cohen. <strong>The importance of standards for sharing of computational models and data</strong>. Computational Brain &amp; Behavior 2 (2019): 229-232. URL: <a class="reference external" href="https://link.springer.com/article/10.1007/s42113-019-00062-x">https://link.springer.com/article/10.1007/s42113-019-00062-x</a>. DOI: <a class="reference external" href="https://doi.org/10.1007/s42113-019-00062-x">https://doi.org/10.1007/s42113-019-00062-x</a></p></li>
+<li><p>Yarkoni, Tal, Dean Eckles, James AJ Heathers, Margaret C. Levenstein, Paul E. Smaldino, and Julia I. Lane. <strong>Enhancing and accelerating social science via automation: Challenges and opportunities</strong>. Harvard Data Science Review 3, no. 2 (2021). URL:<a class="reference external" href="https://hdsr.mitpress.mit.edu/pub/nu90ngsc/release/4">https://hdsr.mitpress.mit.edu/pub/nu90ngsc/release/4</a>.  DOI: <a class="reference external" href="https://doi.org/10.1162/99608f92.df2262f5">https://doi.org/10.1162/99608f92.df2262f5</a></p></li>
+<li><p>Krzysztof J Gorgolewski, Tibor Auer, Vince D Calhoun, R Cameron Craddock, Samir Das, Eugene P Duff, Guillaume Flandin, Satrajit S Ghosh, Tristan Glatard, Yaroslav O Halchenko, Daniel A Handwerker, Michael Hanke, David Keator, Xiangrui Li, Zachary Michael, Camille Maumet, B Nolan Nichols, Thomas E Nichols, John Pellman, Jean-Baptiste Poline, Ariel Rokem, Gunnar Schaefer, Vanessa Sochat, William Triplett, Jessica A Turner, Gaël Varoquaux, and Russell A Poldrack. <strong>The Brain Imaging Data Structure, a format for organizing and describing outputs of neuroimaging experiments</strong>. Sci Data, 3:160044, June 2016. URL: <a class="reference external" href="https://www.nature.com/articles/sdata201644">https://www.nature.com/articles/sdata201644</a>.  DOI: <a class="reference external" href="https://doi.org/10.1038/sdata.2016.44">https://doi.org/10.1038/sdata.2016.44</a>.</p></li>
+</ul>
+</section>
+<section id="non-peer-reviewed-documents-articles">
+<h3>Non-Peer-Reviewed Documents &amp; Articles<a class="headerlink" href="#non-peer-reviewed-documents-articles" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><ul>
+<li><p><em>Title</em>: <strong>Working in Public: The Making and Maintenance of Open Source Software</strong></p></li>
+<li><p><em>Type</em>: Book</p></li>
+<li><p><em>Author</em>: Eghbal, Nadia</p></li>
+<li><p><em>Year</em>: 2020</p></li>
+<li><p><em>Identifier</em>: 0578675862</p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://press.stripe.com/working-in-public">https://press.stripe.com/working-in-public</a></p></li>
+<li><p><em>Abstract / Summary</em>: In this book Eghbal presents an overview of the socio-technical nuances of Open source development.  Of particular relation to the topic of Open Source Ecosystems, Eghbal dedicates a portion of discussion to the issue(s) of Open Source communities and organizations.  Through this exploration she reveals many of the challenges associated with the coordination and sustenance of a coherent and aligned Open Source endeavor.</p></li>
+</ul>
+</li>
+<li><ul>
+<li><p><em>Title</em>: <strong>The relationship between open source software and standard setting</strong></p></li>
+<li><p><em>Type</em>: Report</p></li>
+<li><p><em>Author</em>:  Blind, Knut;  Thumm, Nikolaus;  Böhm, Mirko</p></li>
+<li><p><em>Year</em>: 2019</p></li>
+<li><p><em>Identifier</em>: 978-92-76-11593-9; <a class="reference external" href="https://dx.doi.org/10.2760/163594">10.2760/163594</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://op.europa.eu/en/publication-detail/-/publication/6521f427-01df-11ea-8c1f-01aa75ed71a1/language-en">https://op.europa.eu/en/publication-detail/-/publication/6521f427-01df-11ea-8c1f-01aa75ed71a1/language-en</a></p></li>
+<li><p><em>Abstract / Summary</em>: In this 2019 European Commission, <a class="reference external" href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/joint-research-centre_en">Joint Research Centre (JRC)</a> report, the interactions and relationships between the socio-technical processes of Open Source Software (OSS) development communities and Standards Development Organizations (SDOs) is analyzed.  Of particular interest to the report are issues of incentive structures/systems, Intellectual Property Rights/regimes (IPR), and collaboration (within SDOs/OSS communities and between SDOs and OSS communities).  The report includes a consideration of 20 case studies and the provision of recommendations to a broad range of stakeholders, in fulfillment of <a class="reference external" href="https://ec.europa.eu/docsroom/documents/26583">the inciting charge</a> issued by the European Commission on this subject. <br/><br/>Of particular salience and interest to the current workshop endeavor is the overarching conceptual framework provided by the analysis, which can be understood to subsume the (sub)-domain of Open Source Ecosystems for data and metadata standard development and promulgation.</p></li>
+</ul>
+</li>
+<li><ul>
+<li><p><em>Title</em>: <strong>Research Data File Formats and Digital Preservation — Final Report</strong></p></li>
+<li><p><em>Type</em>: Report</p></li>
+<li><p><em>Author</em>:  Digital preservation services development group; The Open Science and Research Initiative (ATT)</p></li>
+<li><p><em>Year</em>: 2017</p></li>
+<li><p><em>Identifier</em>: URN:NBN:fi-fe2017121855906; <a class="reference external" href="https://dx.doi.org/10.2760/163594">10.2760/163594</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://www.doria.fi/handle/10024/147761">https://www.doria.fi/handle/10024/147761</a></p></li>
+<li><p><em>Abstract / Summary</em>: “This report is part of designing the digital preservation ensemble. It focuses on research data file formats, whose understandability, prevalence and software support are important for data reuse. The report is based on international sources and interviews with Finnish researchers. Additionally, the report presents preliminary requirements for accepting research datasets for digital preservation.”[<a class="reference external" href="https://www.doria.fi/handle/10024/147761">source</a>]</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="policy-policy-related-documents">
+<h3>Policy &amp; Policy-related Documents<a class="headerlink" href="#policy-policy-related-documents" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><ul>
+<li><p><em>Title</em>: <strong>Request for Information (RFI): Proposed Use of Common Data Elements (CDEs) for NIH-Funded Clinical Research and Trials</strong></p></li>
+<li><p><em>Organization</em>: <a class="reference external" href="https://datascience.nih.gov/about/odss">National Institutes of Health (NIH), Office of Data Science Strategy (ODSS)</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-063.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-063.html</a></p></li>
+<li><p><em>Abstract / Summary</em>: “The purpose of the Request for Information (RFI) is to solicit public input on 1) a set of minimum core common data elements (CDEs) that would be used across all NIH funded/conducted clinical studies/trials and community-based research involving human participants; 2) additional CDEs for social determinants of health (SDoH) and clinical domains including autoimmune diseases and immune-mediated diseases; and 3) technologies, tools and policies that could facilitate the use of NIH CDEs.  NIH CDEs are defined as CDEs “recommended” or “required” by an NIH body, and/or found in the NIH CDE Repository. These RFI responses will be used to inform NIH’s continuing guidance on CDE use and assist in the planning for adequate resources for CDE implementation.” [<a class="reference external" href="https://datascience.nih.gov/cde-rfi">source</a>]</p></li>
+</ul>
+</li>
+<li><ul>
+<li><p><em>Title</em>: <strong>Desirable Characteristics of Data Repositories for Federally Funded Research</strong></p></li>
+<li><p><em>Organization</em>: <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-SOS-NSTC-CHARTER.pdf">The National Science and Technology Council (NSTC), Subcommittee on Open Science (SOS)</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf">https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf</a>, <a class="reference external" href="https://doi.org/10.5479/10088/113528">https://doi.org/10.5479/10088/113528</a></p></li>
+<li><p><em>Abstract / Summary</em>: A Guidance document produced by the NSTC SOS (against the backdrop of executive mandates from <a class="reference external" href="https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf">2013</a> and <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf">2022</a> on public access to federally funded science products) regarding the desired characteristics of data repositories.  Includes (brief) guidance on both issues of metadata and format.</p></li>
+</ul>
+</li>
+<li><ul>
+<li><p><em>Title</em>: <strong>USDA Fiscal Year 2024-2026 Data Strategy</strong></p></li>
+<li><p><em>Organization</em>: <a class="reference external" href="https://www.usda.gov">United States Department of Agriculture (USDA)</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://www.usda.gov/sites/default/files/documents/fy-2024-2026-usda-data-strategy.pdf">https://www.usda.gov/sites/default/files/documents/fy-2024-2026-usda-data-strategy.pdf</a>, <a class="reference external" href="https://doi.org/10.5479/10088/113528">https://doi.org/10.5479/10088/113528</a></p></li>
+<li><p><em>Abstract / Summary</em>: The visioning document for the USDA’s data strategy for 2024 to 2026.  Goal 4 of this roadmap is broadly dedicated towards efforts to the enhance the “Openness” of the USDA’s Data Catalog, while objective 4.1 is specifically dedicated to enhance and standardize metadata.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="media">
+<h3>Media<a class="headerlink" href="#media" title="Link to this heading">#</a></h3>
+</section>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><ul>
+<li><p><em>Resource Title</em>: <strong><a class="reference external" href="http://Fairshairing.org">Fairshairing.org</a> Standards Database</strong></p></li>
+<li><p><em>Organization</em>: <a class="reference external" href="https://fairsharing.org/">Fairsharing.org</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://fairsharing.org/search?fairsharingRegistry=Standard">https://fairsharing.org/search?fairsharingRegistry=Standard</a></p></li>
+<li><p><em>Description / Summary</em>:  “A registry of terminology artefacts, models/formats, reporting guidelines, and identifier schemas.”  Includes a <a class="reference external" href="https://fairsharing.github.io/JSONschema-documenter/?schema_url=https://api.fairsharing.org/model/standard_schema.json">meta-metadata standard</a> which documents characteristics like: domain, subject, associated tools, accommodating databases.</p></li>
+</ul>
+</li>
+<li><ul>
+<li><p><em>Resource Title</em>: <strong>Building a metadata schema – where to start</strong></p></li>
+<li><p><em>Organization</em>:<a class="reference external" href="https://www.iso.org/home.html">International Organization for Standardization (ISO)</a></p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://committee.iso.org/files/live/sites/tc46sc11/files/documents/N800R1%20Where%20to%20start-advice%20on%20creating%20a%20metadata%20schema.pdf">https://committee.iso.org/files/live/sites/tc46sc11/files/documents/N800R1%20Where%20to%20start-advice%20on%20creating%20a%20metadata%20schema.pdf</a></p></li>
+<li><p><em>Description / Summary</em>: A guide provided by the International Organization for Standardization (ISO) to assist with the creation of a metadata schema.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organizations">
+<h3>Organizations<a class="headerlink" href="#organizations" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><ul>
+<li><p><em>Organization Name</em>: Research Data Alliance (RDA)</p></li>
+<li><p><em>Link</em>: <a class="reference external" href="https://www.rd-alliance.org/">https://www.rd-alliance.org/</a></p></li>
+<li><p><em>Relevant Components/Aspects</em>: <a class="reference external" href="https://www.rd-alliance.org/groups/data-granularity-wg">Data Granularity WG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/data-repository-attributes-wg">Data Repository Attributes WG</a>,  <a class="reference external" href="https://www.rd-alliance.org/group/fairsharing-registry-connecting-data-policies-standards-databases.html">FAIRsharing Registry: Connecting data policies, standards and databases RDA WG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/metadata-standards-catalog-working-group.html">Metadata Standards Catalog WG</a>,  <a class="reference external" href="https://www.rd-alliance.org/groups/research-metadata-schemas-wg">Research Metadata Schemas WG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/fair-instrument-data-ig">FAIR Instrument Data IG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/metadata-ig.html">Metadata IG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/social-dynamics-data-interoperability-ig">Social Dynamics of Data Interoperability IG</a>, <a class="reference external" href="https://www.rd-alliance.org/groups/data-type-registries-wg.html">Data Type Registries WG &amp; #2</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="other">
+<h3>Other<a class="headerlink" href="#other" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Hillel Wayne. <strong>The Hunt for The Missing Data Type</strong>. Mar 02, 2024.  URL:  <a class="reference external" href="https://www.hillelwayne.com/post/graph-types/">https://www.hillelwayne.com/post/graph-types/</a></p></li>
+<li><p>Tyler Hou. <strong>The “missing” graph datatype already exists. It was invented in the 70’s</strong>. 05 Mar 2024. URL: <a class="reference external" href="https://tylerhou.com/posts/datalog-go-brrr/">https://tylerhou.com/posts/datalog-go-brrr/</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="organizers.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Organizer team</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#content-relating-to-data-and-metadata-standards">Content relating to Data and Metadata standards</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-reviewed-articles">Peer-Reviewed Articles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-peer-reviewed-documents-articles">Non-Peer-Reviewed Documents &amp; Articles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#policy-policy-related-documents">Policy &amp; Policy-related Documents</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#media">Media</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizations">Organizations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other">Other</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
